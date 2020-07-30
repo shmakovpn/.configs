@@ -1,0 +1,19 @@
+#!/bin/bash
+# lorem ipsum genetator
+# "Usage: lorem [p (paragraphs), s (sentences)] [integer]
+
+
+if [ "${2}" = "" ]; then
+    echo "Usage: lorem [p (paragraphs), s (sentences)] [integer]"
+else
+    if [ "${1}" = "p" ]; then
+        curl -s http://metaphorpsum.com/paragraphs/"${2}" && printf "\n"
+    else
+        if [ "${1}" = "s" ]; then
+            curl -s http://metaphorpsum.com/sentences/"${2}" && printf "\n"
+        else
+            echo "Usage: lorem [p (paragraphs), s (sentences)] [integer]"
+        fi
+    fi
+fi
+

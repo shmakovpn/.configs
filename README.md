@@ -1,11 +1,13 @@
 # Shmakovpn's configuration files
 
+
 Usage example:
 ```shell
 cd
 git clone https://shmakovpn/.configs
 ln -sf .configs/.vimrc
 ```
+
 
 ## tmux
 Usage with **tmux**:
@@ -17,10 +19,14 @@ ln -sf .tmux/.tmux.conf
 ln -sf .configs/.tmux.conf.local
 ```
 
+
+About this **tmux** features:
+
 - Prefix set to *Ctrl a*
 - Disable/enable mouse *prefix m* (disabled by default)
 - Copy *prefix [Enter]* (mouse must be disabled), select text using mouse, then press *Ctrl c*
 - Reload **tmux** configuration *prefix r*
+
 
 ## Lorem Ipsum generator
 ```shell
@@ -32,10 +38,18 @@ lorem p 3  # prints three paragraphs to stdout
 In **vim** use: *:r!lorem p 3*
 
 
+## Using **markdown** without GUI in **Centos 8**
 
+```shell
+sudo dnf config-manager --set-enabled PowerTools  # enable Power Tools repo
+sudo dnf -y install lynx  # install console browser
+sudo dnf -y install pandoc  # install markup formats converter
+pandoc README.md | lynx -stdin
+```
 
+## Using **vim** as IDE
 
-
-
-
+```shell
+pip install pyflakes pep8 pylint ipython  # installing packages
+```
 

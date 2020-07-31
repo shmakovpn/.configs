@@ -53,8 +53,6 @@ pandoc README.md | lynx -stdin
 cd
 pip install pyflakes pep8 pylint ipython  # installing packages
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-ln -sf .configs/.vimrc_vundle
-echo 'source ~/.vimrc_vundle' >> ~/.vimrc  # include .vimrc_vundle to .vimrc
 ```
 
 

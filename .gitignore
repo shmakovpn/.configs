@@ -32,4 +32,5 @@ _templates/
 # pytest
 .pytest_cache/
 
-
+# vim swp
+*.swp

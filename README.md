@@ -55,4 +55,5 @@ pip install pyflakes pep8 pylint ipython  # installing packages
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
+Then run vim and perform **:PluginInstall** command
 

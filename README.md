@@ -4,7 +4,7 @@
 Usage example:
 ```shell
 cd
-git clone https://shmakovpn/.configs
+git clone https://github.com/shmakovpn/.configs
 ln -sf .configs/.vimrc
 ```
 

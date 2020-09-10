@@ -34,3 +34,6 @@ _templates/
 
 # vim swp
 *.swp
+
+# sensitive data
+secret/

@@ -1,1 +1,2 @@
-set background=dark  " set theme for dark console
+" set background=dark  " set theme for dark console
+colorscheme DarkDefault

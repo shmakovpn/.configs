@@ -1,14 +1,24 @@
 # author: shmakovpn <shmakovpn@yandex.ru>
 # date: 2020-07-30
 
-# IDEs
+# IDEs & stuff
 .idea/
+.DS_Store
+cache/
+gunicorn_start
+CHACHE/
+.vscode/
+.vs/
 
 # python
 *.pyc
 __pychache__/
 *.egg-info/
 .eggs/
+.Python
+
+# virtualenv
+venv/
 
 # Django
 migrations/
@@ -16,8 +26,13 @@ db.sqlite3
 settings.py
 manage.py
 
-# virtualenv
-venv/
+# C extensions
+*.so
+
+# build
+env/
+build/
+sdist/
 
 # sphinx 
 docs/build/html/

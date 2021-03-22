@@ -35,6 +35,8 @@ Plugin 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
 
 Plugin 'flazz/vim-colorschemes'  " цветовые схемы vim
 Plugin 'posva/vim-vue'  " плагин для файлов *.vue
+"-- emmet данный плагин теперь определен в отдельном файле .vimrc_emmet
+" Plugin 'mattn/emmet-vim'
 
 call vundle#end()            		" required
 filetype on

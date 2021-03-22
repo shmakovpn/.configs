@@ -1,0 +1,17 @@
+" emmet plugin configuration for Vim
+Plugin 'mattn/emmet-vim'
+
+" default to call emmet, press Ctrl+y then comma (,)
+"
+" redefine trigger key for emmet
+let g:user_emmet_leader_key=','
+" so, type comma twice (,,) to call vim
+" https://medium.com/vim-drops/be-a-html-ninja-with-emmet-for-vim-feee15447ef1
+"
+" exapmles html:5,,
+" div,,
+" div>p>a,,
+" div.container>p#foo>a,,
+" div>p*5,,
+" div>p#foo$*5
+"

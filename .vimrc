@@ -7,3 +7,6 @@ source ~/.configs/.vimrc_typescript " settings for typescript
 source ~/.configs/.vimrc_emmet " settings for Emmet 
 
 set visualbell
+
+"let g:snipMate = { 'snippet_version' : 1 }
+"set belloff=all

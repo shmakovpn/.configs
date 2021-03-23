@@ -57,3 +57,8 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Then run vim and perform **:PluginInstall** command
 
+## Disable bell in bash
+
+```shell
+echo "set bell-style none" >> ~/.inputrc
+```

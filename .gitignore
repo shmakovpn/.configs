@@ -3,12 +3,34 @@
 
 # IDEs & stuff
 .idea/
-.DS_Store
 cache/
 gunicorn_start
 CHACHE/
-.vscode/
 .vs/
+.project # ng new
+.classpath # ng new
+.c9/ # ng new
+*.launch # ng new
+.settings/ # ng new
+*.sublime-workplace # ng new
+
+# IDE - VSCode
+.vscode/ # ng new
+!.vscode/settings.json # ng new
+!.vscode/tasks.json # ng new
+!.vscode/launch.json # ng new
+!.vscode/extensions.json # ng new
+.history/*
+
+# misc
+/.sass-cache # ng new
+/connect.lock # ng new
+/coverage # ng new
+/libpeerconnection.log # ng new
+npm-debug.log # ng new
+yarn-error.log # ng new
+testem.log # ng new
+# /typings # ng new
 
 # python
 *.pyc
@@ -29,10 +51,23 @@ manage.py
 # C extensions
 *.so
 
-# build
+# build, compiled output
 env/
 build/
 sdist/
+/dist # ng new
+/tmp # ng new
+/out-tsc # ng new
+/bazel-out # ng new, only exists if Bazel was run
+
+# dependencies
+/node_modules # ng new
+
+# profiling files
+chrome-profiler-events*.json # ng new
+speed-measure-plugin*.json # ng new
+
+
 
 # sphinx 
 docs/build/html/
@@ -56,3 +91,7 @@ secret/
 # Linux packages
 *.deb
 *.rpm
+
+# System Files
+.DS_Store # ng new
+Thumbs.db # ng new

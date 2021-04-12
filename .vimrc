@@ -8,5 +8,5 @@ source ~/.configs/.vimrc_emmet " settings for Emmet
 
 set visualbell
 
-"let g:snipMate = { 'snippet_version' : 1 }
+let g:snipMate = { 'snippet_version' : 1 }
 "set belloff=all

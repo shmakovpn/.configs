@@ -95,3 +95,23 @@ secret/
 # System Files
 .DS_Store # ng new
 Thumbs.db # ng new
+
+# some temporary file
+temp.py
+temp.html
+temp.txt
+temp.csv
+notes
+
+# some logs
+debug.log
+geckodriver.log
+
+# selenuim
+chromedriver.exe
+chromedriver
+geckodriver
+geckodriver.exe
+
+# cloud clients
+.insyncdl

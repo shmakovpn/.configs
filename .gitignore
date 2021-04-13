@@ -7,29 +7,47 @@ cache/
 gunicorn_start
 CHACHE/
 .vs/
-.project # ng new
-.classpath # ng new
-.c9/ # ng new
-*.launch # ng new
-.settings/ # ng new
-*.sublime-workplace # ng new
+#  ng new
+.project 
+#  ng new
+.classpath 
+#  ng new
+.c9/ 
+#  ng new
+*.launch 
+#  ng new
+.settings/ 
+#  ng new
+*.sublime-workplace 
 
 # IDE - VSCode
-.vscode/ # ng new
-!.vscode/settings.json # ng new
-!.vscode/tasks.json # ng new
-!.vscode/launch.json # ng new
-!.vscode/extensions.json # ng new
+#  ng new
+.vscode/ 
+#  ng new
+!.vscode/settings.json 
+#  ng new
+!.vscode/tasks.json 
+#  ng new
+!.vscode/launch.json 
+#  ng new
+!.vscode/extensions.json 
 .history/*
 
 # misc
-/.sass-cache # ng new
-/connect.lock # ng new
-/coverage # ng new
-/libpeerconnection.log # ng new
-npm-debug.log # ng new
-yarn-error.log # ng new
-testem.log # ng new
+#  ng new
+/.sass-cache 
+#  ng new
+/connect.lock 
+#  ng new
+/coverage 
+#  ng new
+/libpeerconnection.log 
+#  ng new
+npm-debug.log 
+#  ng new
+yarn-error.log 
+#  ng new
+testem.log 
 # /typings # ng new
 
 # python
@@ -55,17 +73,24 @@ manage.py
 env/
 build/
 sdist/
-/dist # ng new
-/tmp # ng new
-/out-tsc # ng new
-/bazel-out # ng new, only exists if Bazel was run
+#  ng new
+/dist 
+#  ng new
+/tmp 
+#  ng new
+/out-tsc 
+#  ng new, only exists if Bazel was run
+/bazel-out 
 
 # dependencies
-/node_modules # ng new
+#  ng new
+/node_modules 
 
 # profiling files
-chrome-profiler-events*.json # ng new
-speed-measure-plugin*.json # ng new
+#  ng new
+chrome-profiler-events*.json 
+#  ng new
+speed-measure-plugin*.json 
 
 
 
@@ -93,8 +118,10 @@ secret/
 *.rpm
 
 # System Files
-.DS_Store # ng new
-Thumbs.db # ng new
+#  ng new
+.DS_Store 
+#  ng new
+Thumbs.db 
 
 # some temporary file
 temp.py

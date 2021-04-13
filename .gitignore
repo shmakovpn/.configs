@@ -142,3 +142,6 @@ geckodriver.exe
 
 # cloud clients
 .insyncdl
+
+# npm lock 
+package-lock.json

@@ -145,3 +145,6 @@ geckodriver.exe
 
 # npm lock 
 package-lock.json
+
+# mypy
+/.mypy-cache

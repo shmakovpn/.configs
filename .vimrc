@@ -10,3 +10,6 @@ set visualbell
 
 let g:snipMate = { 'snippet_version' : 1 }
 "set belloff=all
+
+" https://habr.com/ru/post/321902/
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz

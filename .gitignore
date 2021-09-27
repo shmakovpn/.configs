@@ -148,3 +148,8 @@ package-lock.json
 
 # mypy
 /.mypy-cache
+/.mypy_cache
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
